@@ -55,7 +55,7 @@ while True:
                 if answer == "3":
                     print("Correct! The number is 3.")
                 else:
-                    print("Incorrect. The correct answer is 3.")
+                    print("Incorrect. Try later.")
 
     if task == "3":
         print("Task 3: I am a number that is the difference between the square of 10 and the square of 8. What number am I?")
@@ -70,7 +70,7 @@ while True:
                 if answer == "36":
                     print("Correct! The number is 36.")
                 else:
-                    print("Incorrect. The correct answer is 36.")
+                    print("Incorrect. Try later.")
 
     if task == "4":
         print("Task 4: Find a number in the following letters: heigt What number am I?")
@@ -85,7 +85,7 @@ while True:
                 if answer == "8":
                     print("Correct! The number is 8.")
                 else:
-                    print("Incorrect. The correct answer is 8.")
+                    print("Incorrect. Try later.")
 
     if task == "5":
         print("Task 5: I am the number of the gravity on earth in m/s^2 (write only the number, without decimals). What number am I?")
@@ -100,7 +100,7 @@ while True:
                 if answer == "9":
                     print("Correct! The number is 9.")
                 else:
-                    print("Incorrect. The correct answer is 9.")
+                    print("Incorrect. Try later.")
 
     if task == "6":
         print("Now that you have completed all the tasks, you can enter the final answer.")
@@ -110,6 +110,4 @@ while True:
             print("You can now search for the final answer in the book.")
             break 
         else:
-            print("Incorrect. The correct final answer is 21.")
-user.name = "b25.aperpinya"
-user.email = "b25.aperpinya@llotja.cat"
+            print("Incorrect. You lost the game.")
